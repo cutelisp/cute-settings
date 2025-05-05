@@ -1,6 +1,6 @@
 -- This is an example how a plugin uses cutesettings
 
-local PLUGIN_NAME = "cute_plugin"
+local PLUGIN_NAME = "example_plugin"
 local config = import("micro/config")
 
 package.path = package.path .. ';' .. config.ConfigDir .. '/plug/' .. PLUGIN_NAME .. '/?.lua'
